@@ -28,11 +28,11 @@ function Dashboard() {
                                     <h4 className="carousel-text mt-2 mb-5">Join Medical Assistant, a healthcare system that puts
                                         you first
                                     </h4>
-                                    <button className="btn btn-primary mb-5 py-3 px-4">
-                                        <a href="/services" style={{ color: 'white', textDecoration: 'none' }}>
+                                    <a href="/services" style={{ color: 'white', textDecoration: 'none' }}>
+                                        <button className="btn btn-primary mb-5 py-3 px-4">
                                             Explore Services <i className="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </button>
+                                        </button>
+                                    </a>
 
                                 </div>
                             </div>
@@ -46,11 +46,11 @@ function Dashboard() {
                                     <h4 className="carousel-text mt-2 mb-5">Medical Assistant offers more than 60 doctors in 24
                                         specialized departments
                                     </h4>
-                                    <button className="btn btn-primary mb-5 py-3 px-4">
-                                        <a href="/doctors" style={{ color: 'white', textDecoration: 'none' }}>
+                                    <a href="/doctors" style={{ color: 'white', textDecoration: 'none' }}>
+                                        <button className="btn btn-primary mb-5 py-3 px-4">
                                             Book Appointment <i className="fa-solid fa-arrow-right"></i>
-                                        </a>
-                                    </button>
+                                        </button>
+                                    </a>
 
                                 </div>
                             </div>
@@ -117,13 +117,14 @@ function Dashboard() {
                                 laboratories are set up according to international standards and protocols and we routinely
                                 compare our results with laboratories abroad to ensure your reports are accurate.</p>
 
-                            <button className="btn btn-outline-light px-4 py-3 mb-3"><a className='btn-our-services' href="/services">Our Services <i
+                            {/* <button className="btn btn-outline-light px-4 py-3 mb-3"><a className='btn-our-services' href="/services">Our Services <i
                                 className="fa-solid fa-arrow-right"></i></a>
-                            </button>
-
-                            {/* <button className="btn btn-outline-light px-4 py-3 mb-3">
-                                <a href="/services">Our Services <i className="fa-solid fa-arrow-right"></i></a>
                             </button> */}
+
+                            <a className='btn-our-services' href="/services"><button className="btn btn-outline-light px-4 py-3 mb-3">Our Services <i
+                                className="fa-solid fa-arrow-right"></i>
+                            </button></a>
+
                         </div>
                     </div>
                 </section>
