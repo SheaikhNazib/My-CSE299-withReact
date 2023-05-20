@@ -1,0 +1,18 @@
+.corporate-header {
+    background-image: url("../images/corporate-img.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    padding: 100px 0;
+}
+
+.card-bg {
+    background-color: rgb(138, 32, 97);
+    color: white;
+
+}
+
+.text-align {
+    text-align: left;
+}

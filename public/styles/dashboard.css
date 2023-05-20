@@ -1,0 +1,42 @@
+.nav-under {
+    transition: all 0.2ms;
+}
+
+.nav-under:hover {
+    border-bottom: 3px solid rgb(226, 159, 211);
+
+}
+
+.phone-number,
+.email-address,
+.login {
+    text-decoration: none;
+    color: brown;
+}
+
+.phone-number:hover,
+.email-address:hover,
+.login:hover {
+
+    border-bottom: 3px solid burlywood;
+}
+
+.carousel-text {
+    color: white;
+    text-shadow: 2px 2px #000000;
+}
+
+.btn-primary:hover {
+    background-color: rgba(94, 36, 240, 0.885);
+}
+.btn-our-services{
+    text-decoration: none;
+    color: white;
+}
+.btn-our-services:hover{
+    color: black;
+}
+
+.why-medi {
+    background-color: purple;
+}
