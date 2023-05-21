@@ -6,6 +6,7 @@ import Corporate from "./components/Corporate";
 import Doctors from "./components/Doctors";
 import Login from "./components/Login";
 import Register from "./components/Register";
+// import Admin from "./components/Admin";
 
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -13,7 +14,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-          
       <BrowserRouter>
         <Navbar />
         <Routes>

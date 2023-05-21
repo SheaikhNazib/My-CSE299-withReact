@@ -3,17 +3,15 @@ import React from 'react'
 function Services() {
     return (
         <>
-            <header class="service-header">
-                <div>
-                    <h1 class="text-center">Services</h1>
-                    <h5 class="text-center">We take care of all your outpatient needs under one roof</h5>
-                </div>
+            <header className="service-header">
+                    <h1 className="text-center">Services</h1>
+                    <h5 className="text-center">We take care of all your outpatient needs under one roof</h5>
             </header>
             <main>
                 {/* <!-- -----------------------consultation section start----------  --> */}
-                <section class="container mt-4 p-3 rounded service-section">
-                    <div class="row">
-                        <div class="col-10">
+                <section className="container mt-4 p-3 rounded service-section">
+                    <div className="row">
+                        <div className="col-10">
                             <h3>Consultations</h3>
                             <p>Medical Assistant’s caring, internationally trained 60+ doctors from 24 specializations take the
                                 time to listen and understand your needs. All consultations (in-clinic or virtual) take at least
@@ -24,29 +22,29 @@ function Services() {
                                 better understand the background of their patients. Praava also maintains the highest
                                 confidentiality of medical records.</p>
                         </div>
-                        <div class="col-2 d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                            <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
+                                className="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
 
                     {/* <!--------- Modal-------> */}
-                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Consultations</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-scrollable">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Consultations</h5>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div className="modal-body">
                                     <h2>In-Person Consultation</h2>
                                     <p>Meet our Family Health Professionals and Visiting Specialists at our flagship health
                                         center in Banani. Our doctors provide adequate time and get to know you and your health.
                                         They check your prescriptions and medical history before your consultation to better
                                         advise you on your health conditions.
                                     </p>
-                                    <button class="btn btn-primary">Book Appointment <i
-                                        class="fa-solid fa-arrow-right"></i></button>
+                                    <button className="btn btn-primary">Book Appointment <i
+                                        className="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -56,9 +54,9 @@ function Services() {
 
 
                 {/* <!-- -----------------------Diagnostics section start----------  --> */}
-                <section class="container mt-2 p-3 rounded service-section">
-                    <div class="row">
-                        <div class="col-10">
+                <section className="container mt-2 p-3 rounded service-section">
+                    <div className="row">
+                        <div className="col-10">
                             <h3>Diagnostics</h3>
                             <p>
                                 Medical assistant’s state-of-the-art diagnostic services consist of seven laboratories including
@@ -71,21 +69,21 @@ function Services() {
 
                             </p>
                         </div>
-                        <div class="col-2 d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                            <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
+                                className="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
 
                     {/* <!------ Modal------- --> */}
-                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Diagnostics Lab Services & Imaging</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-scrollable">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Diagnostics Lab Services & Imaging</h5>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div className="modal-body">
                                     <h2>Diagnostics Lab Services & Imaging</h2>
                                     <p>Our state-of-the-art diagnostic services consist of seven laboratories including the
                                         first Molecular Cancer Diagnostics laboratory in Bangladesh as well as comprehensive
@@ -95,8 +93,8 @@ function Services() {
                                         Scheme), the world’s largest international external quality assessment scheme, and has
                                         received a 99.9% average monthly accuracy score.
                                     </p>
-                                    <button class="btn btn-primary">Book Appointment <i
-                                        class="fa-solid fa-arrow-right"></i></button>
+                                    <button className="btn btn-primary">Book Appointment <i
+                                        className="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -105,9 +103,9 @@ function Services() {
                 {/* <!-- ------------------------- Diagnostics section end------------- --> */}
 
                 {/* <!-- -----------------------Health Checks & Packages section start----------  --> */}
-                <section class="container mt-2 p-3 rounded service-section">
-                    <div class="row">
-                        <div class="col-10">
+                <section className="container mt-2 p-3 rounded service-section">
+                    <div className="row">
+                        <div className="col-10">
                             <h3>Health Checks & Packages</h3>
                             <p>
                                 Medical assistant believes everyone should have access to convenient, affordable, and
@@ -119,28 +117,28 @@ function Services() {
 
                             </p>
                         </div>
-                        <div class="col-2 d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                            <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
+                                className="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
 
                     {/* <!------ Modal------- --> */}
-                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Health Checks and Packages</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-scrollable">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Health Checks and Packages</h5>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div className="modal-body">
                                     <h2>Health Checks and Packages</h2>
                                     <p>We believe everyone should have access to convenient, affordable, and high-quality
                                         healthcare. Our health checks and packages help you stay on top of your health no matter
                                         your age, gender or needs. Choose the one that is right for you.
                                     </p>
-                                    <button class="btn btn-primary">Book Appointment <i
-                                        class="fa-solid fa-arrow-right"></i></button>
+                                    <button className="btn btn-primary">Book Appointment <i
+                                        className="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -150,36 +148,36 @@ function Services() {
 
 
                 {/* <!-- -----------------------Remote & Home Services section start----------  --> */}
-                <section class="container mt-2 p-3 rounded service-section">
-                    <div class="row">
-                        <div class="col-10">
+                <section className="container mt-2 p-3 rounded service-section">
+                    <div className="row">
+                        <div className="col-10">
                             <h3>Remote & Home Services</h3>
                             <p>
                                 Praava has brought back the culture of getting doctor consultations or nursing services at your home for any emergency situation. Praava values your time and delivers services to cater your needs. You can book appointments for sample collection of any lab tests or home visits by our Family Medicine Doctors, physiotherapists or nurses right at your home.
                             </p>
                         </div>
-                        <div class="col-2 d-flex justify-content-center align-items-center">
-                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
-                                class="fa-solid fa-arrow-right"></i></button>
+                        <div className="col-2 d-flex justify-content-center align-items-center">
+                            <button className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Read More <i
+                                className="fa-solid fa-arrow-right"></i></button>
                         </div>
                     </div>
 
                     {/* <!------ Modal------- --> */}
-                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Health Checks and Packages</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-scrollable">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel">Health Checks and Packages</h5>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div className="modal-body">
                                     <h2>Health Checks and Packages</h2>
                                     <p>We believe everyone should have access to convenient, affordable, and high-quality
                                         healthcare. Our health checks and packages help you stay on top of your health no matter
                                         your age, gender or needs. Choose the one that is right for you.
                                     </p>
-                                    <button class="btn btn-primary">Book Appointment <i
-                                        class="fa-solid fa-arrow-right"></i></button>
+                                    <button className="btn btn-primary">Book Appointment <i
+                                        className="fa-solid fa-arrow-right"></i></button>
                                 </div>
                             </div>
                         </div>

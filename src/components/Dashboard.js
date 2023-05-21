@@ -36,6 +36,7 @@ function Dashboard() {
 
                                 </div>
                             </div>
+
                             {/* <!-- ----------- slider 2------------ --> */}
                             <div className="carousel-item active ">
                                 <img src="images/slider-2.jpg" className="d-block w-100 " alt="..." />
@@ -51,9 +52,9 @@ function Dashboard() {
                                             Book Appointment <i className="fa-solid fa-arrow-right"></i>
                                         </button>
                                     </a>
-
                                 </div>
                             </div>
+
                             {/* <!-- ----------- slider 3------------ --> */}
                             <div className="carousel-item active ">
                                 <img src="images/slider-3.jpg" className="d-block w-100 " alt="..." />
@@ -106,7 +107,6 @@ function Dashboard() {
                 {/* <!-- -------------------why medical assistant part-2--------- --> */}
                 <section className="container mt-5">
                     <div className="row">
-
                         <div className="col-12 col-md-6">
                             <img className="img-fluid w-100 rounded-5" src="images/lab-test.jpg" alt="" />
                         </div>
@@ -116,15 +116,9 @@ function Dashboard() {
                             <p className="text-white mb-5">You can depend on the quality of our diagnosis and test results. Our
                                 laboratories are set up according to international standards and protocols and we routinely
                                 compare our results with laboratories abroad to ensure your reports are accurate.</p>
-
-                            {/* <button className="btn btn-outline-light px-4 py-3 mb-3"><a className='btn-our-services' href="/services">Our Services <i
-                                className="fa-solid fa-arrow-right"></i></a>
-                            </button> */}
-
                             <a className='btn-our-services' href="/services"><button className="btn btn-outline-light px-4 py-3 mb-3">Our Services <i
                                 className="fa-solid fa-arrow-right"></i>
                             </button></a>
-
                         </div>
                     </div>
                 </section>
