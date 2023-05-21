@@ -1,5 +1,3 @@
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Dashboard from "./components/Dashboard";
 import Services from "./components/Services";
 import Corporate from "./components/Corporate";
@@ -15,7 +13,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Navbar />
         <Routes>
           <Route path="" element={<Dashboard />} />
           <Route path="dashboard" element={<Dashboard />} />
@@ -25,7 +22,6 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </>
 

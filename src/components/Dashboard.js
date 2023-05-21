@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 
 function Dashboard() {
     return (
         <>
+        <Navbar /> 
             {/* <!-- --------------------header carousel start---------- --> */}
             <header>
                 <section className="">
@@ -137,6 +140,7 @@ function Dashboard() {
                     </div>
                 </section>
             </main>
+            <Footer />
         </>
     )
 }

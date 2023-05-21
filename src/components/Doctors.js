@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+{/* <Navbar />
+<Footer /> */}
 
 function Doctors() {
   return (
     <>
+    <Navbar />
       <header className="doctors-header">
         <div>
           <h1 className="text-center fw-bold">Our Doctors</h1>
@@ -101,6 +106,7 @@ function Doctors() {
         </section>
         {/* <!-- -----------------------------List of doctors section end ----------  --> */}
       </main>
+      <Footer />
     </>
   )
 }

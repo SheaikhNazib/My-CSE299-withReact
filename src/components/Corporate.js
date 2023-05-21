@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+{/* <Navbar />
+<Footer /> */}
 
 function Corporate() {
     return (
         <>
+            <Navbar />
             <header className="header-bg corporate-header">
                 <div>
                     <h1 className="text-center fw-bold">Corporate Health Solutions</h1>
@@ -108,6 +113,7 @@ function Corporate() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </>
     )
 }

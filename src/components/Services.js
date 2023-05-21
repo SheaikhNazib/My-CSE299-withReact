@@ -1,8 +1,14 @@
 import React from 'react'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+{/* <Navbar />
+<Footer /> */}
 
 function Services() {
     return (
         <>
+        <Navbar />
+        
             <header className="service-header">
                     <h1 className="text-center">Services</h1>
                     <h5 className="text-center">We take care of all your outpatient needs under one roof</h5>
@@ -186,7 +192,7 @@ function Services() {
                 {/* <!-- ------------------------- Remote & Home Services section end------------- --> */}
 
             </main>
-
+            <Footer />        
         </>
     )
 }
