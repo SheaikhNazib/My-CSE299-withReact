@@ -18,7 +18,9 @@ const Navbar = () => {
             <a className="nav-link active nav-under text-danger-emphasis fs-4 fw-medium" aria-current="page"
               href="./corporate">Corporate</a>
             <a className="nav-link active nav-under text-danger-emphasis fs-4 fw-medium" aria-current="page"
-              href="./doctors">Our Doctors</a>
+              href="./doctors">Doctors</a>
+            <a className="nav-link active nav-under text-danger-emphasis fs-4 fw-medium" aria-current="page"
+              href="./tests">Tests</a>
           </div>
         </div>
         <a href="tel:10648" className="phone-number"><i className="fa-solid fa-phone-volume me-1"></i><span

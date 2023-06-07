@@ -28,7 +28,7 @@ const Footer = () => {
                         <p className="mt-2">
                             mediassist@gmail.com</p>
                         <div className="input-group mb-3">
-                            <input type="email" className="form-control" placeholder="Email Address"
+                            <input type="email" className="form-control" placeholder="Mail Us"
                                 aria-label="Recipient's username" aria-describedby="button-addon2" />
                             <button className="btn btn-primary  border-0" type="button"
                                 id="button-addon2"><i className="fa-solid fa-paper-plane text-white"></i></button>

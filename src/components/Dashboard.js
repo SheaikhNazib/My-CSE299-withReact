@@ -69,9 +69,11 @@ function Dashboard() {
                                         during busy schedules, harsh weather and heavy traffic, which is why we offer lab tests
                                         at home
                                     </h4>
-                                    <button className="btn btn-primary mb-5 py-3 px-4">Book Lab Tests <i
-                                        className="fa-solid fa-arrow-right"></i>
-                                    </button>
+                                    <a href="/tests" style={{ color: 'white', textDecoration: 'none' }}>
+                                        <button className="btn btn-primary mb-5 py-3 px-4">
+                                            Book Lab Test <i className="fa-solid fa-arrow-right"></i>
+                                        </button>
+                                    </a>
 
                                 </div>
                             </div>

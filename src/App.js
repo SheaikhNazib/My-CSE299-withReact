@@ -4,6 +4,7 @@ import Corporate from "./components/Corporate";
 import Doctors from "./components/Doctors";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Tests from "./components/Tests";
 // import Admin from "./components/Admin";
 
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="corporate" element={<Corporate />} />
           <Route path="doctors" element={<Doctors />} />
+          <Route path="tests" element={<Tests />} />
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
         </Routes>
