@@ -16,13 +16,10 @@ function Login() {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        // Check if email and password match your criteria for authentication
         if (email === 'sheaikh.rahman@northsouth.edu' && password === 'nazib') {
-            // Redirect to the dashboard page
             window.location.href = '/dashboard';
         } 
         else if (email === 'admin@gmail.com' && password === 'admin') {
-            // Redirect to the dashboard page
             window.location.href = '/admin';
         } 
         else {
