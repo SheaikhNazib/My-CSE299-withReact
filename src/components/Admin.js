@@ -5,7 +5,6 @@ function Admin() {
     return (
         <>
             <Admin_nav />
-
             <section className="card-section p-3 row justify-content-around">
                 <div className="card border-info mb-3 shadow-lg px-4" style={{ maxWidth: '18rem' }}>
                     <div className="card-header fs-2 fw-bold text-center">Total Doctors</div>

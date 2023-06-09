@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 function Dashboard() {
     return (
         <>
-        <Navbar /> 
+            <Navbar />
             {/* <!-- --------------------header carousel start---------- --> */}
             <header>
                 <section className="">

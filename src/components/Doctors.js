@@ -22,7 +22,7 @@ function Doctors() {
         {/* <!-- ------------------------ Search doctor start -------------  --> */}
         <section className="container">
           <div className="row">
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <p>Search by Speciality</p>
               <div className="dropdown">
                 <button className="btn btn-outline-success dropdown-toggle p-3" type="button"
@@ -48,12 +48,12 @@ function Doctors() {
               </div>
             </div>
 
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <p>Search by Name</p>
               <input className="p-3 rounded" type="text" placeholder="Type Doctor's Name" />
             </div>
 
-            <div className="col-4">
+            <div className="col-lg-4 col-sm-12">
               <p>Search by Date</p>
               <input className="p-3 rounded" type="date" id="date-picker" />
             </div>
