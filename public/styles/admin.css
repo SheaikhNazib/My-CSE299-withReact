@@ -13,7 +13,7 @@
 .sidebar li:hover {
     background: #060606;
 }
-.navbar{
+.admin-nav{
     margin-left: 240px;
 }
 .logout:hover{

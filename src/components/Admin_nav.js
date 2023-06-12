@@ -17,7 +17,7 @@ function Admin_nav() {
                 </div>
             </section>
 
-            <nav className="navbar admin-nav bg-body-tertiary">
+            <nav className="navbar admin-nav admin-nav bg-body-tertiary">
                 <div className="container-fluid">
                     <a className="navbar-brand fw-bold">Admin Dashboard</a>
                     <a href="/login" className="text-black text-decoration-none logout">
